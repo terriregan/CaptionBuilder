@@ -1,0 +1,56 @@
+$base-color: #ddd;
+$base-button-color: #ffcc00;
+$tab-button-active-color: #e0e5ec;
+$header-color: #992E2E;
+$footer-color: #aaaaaa;
+$font-family: Arial, Helvetica, sans-serif;
+$font-size: 14px;
+$panel-body-color: #333333;
+
+
+// grids
+$grid-header-background-color: #eee;
+$grid-header-background-gradient: 'matte';
+$grid-header-over-background-color: #eee;
+$grid-header-over-background-gradient: 'matte-over';
+
+// tab buttons
+$tab-line-height: 24px;
+$tab-margin: 0;
+$tab-font-size: 12px;
+$tab-font-weight: normal;
+
+$tab-base-color-active: $tab-button-active-color;
+$tab-background-active: $tab-button-active-color;
+
+$tab-background-gradient: 'matte';
+$tab-background-gradient-over: 'matte-over';
+$tab-background-gradient-active: 'matte-active';
+$tab-background-gradient-disabled: 'matte-disabled';
+$tab-base-color: #eee;
+$tab-border-color: #cfcfcf;
+
+$tab-color: #666;
+$tab-color-over: $tab-color;
+$tab-color-active: #666;
+$tab-color-disabled: #ccc;
+
+$tab-inner-border-color-active: #c7d4e4;
+
+// tab bar
+$tabbar-top-plain-body-padding: 0 0 1px;
+
+//tab bar strip
+$tabbar-strip-height: 5px;
+$tabbar-strip-border-color: #ffffff;
+$tabbar-strip-background-color: $tab-button-active-color;
+$tabbar-top-strip-border-width: 0;
+$tabbar-bottom-strip-border-width: 0;
+
+// buttons
+$button-default-background-gradient: 'matte';
+$button-default-background-color : #eee;
+
+// windows
+$panel-header-color: #333;
+$panel-header-font-size: 12px;

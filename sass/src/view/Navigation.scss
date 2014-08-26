@@ -1,0 +1,32 @@
+.global-nav .x-btn-default-toolbar-medium .x-btn-inner {
+  font-size: 13px;
+  font-weight: bold;
+  color: #8e9094;
+}
+
+
+.x-srcButtonStyle {
+  .x-btn-inner {
+    font-size: 10px;
+  }
+}
+
+.x-srcButtonOverStyle {
+  background-color: rgba(242, 124, 56, 0.2);
+  background-image: none;
+  border-color: rgba(242, 124, 56, 0.5);
+
+  .x-btn-inner {
+    font-size: 10px;
+  }
+}
+
+.x-srcButtonPressedStyle {
+  background-color: rgba(242, 124, 56, 0.2);
+  background-image: none;
+  border-color: rgba(242, 124, 56, 0.5);
+
+  .x-btn-inner {
+    font-size: 10px;
+  }
+}

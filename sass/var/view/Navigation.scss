@@ -1,0 +1,21 @@
+$toolbar-background-color: #efefef;
+$toolbar-background-gradient: 'matte' !default;
+
+$toolbar-separator-color: darken(#ddd, 5);
+$toolbar-separator-highlight-color: #fff !default;
+$toolbar-horizontal-spacing: 15px !default;
+
+// toolbar buttons
+$button-toolbar-border-color: transparent;
+$button-toolbar-border-color-over: #ccc !default;
+$button-toolbar-border-color-focus: $button-toolbar-border-color-over !default;
+$button-toolbar-border-color-pressed: adjust-color(#ddd, $hue: 0.721deg, $saturation: -17.014%, $lightness: -21.765%) !default;
+
+$button-toolbar-background-color: transparent;
+$button-toolbar-background-color-over: lighten(#fff, 10) !default;
+$button-toolbar-background-color-focus: $button-toolbar-background-color-over !default;
+$button-toolbar-background-color-pressed: adjust-color(#ddd, $hue: -1.138deg, $saturation: -11.47%, $lightness: -2.353%) !default;
+$button-toolbar-background-color-disabled: transparent !default;
+
+$button-toolbar-background-gradient-over: 'matte-over' !default;
+$button-toolbar-background-gradient-pressed: 'matte-pressed' !default;

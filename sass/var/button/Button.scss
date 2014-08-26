@@ -1,0 +1,13 @@
+
+// toolbar buttons
+$button-toolbar-border-color-over: #ccc !default;
+$button-toolbar-border-color-focus: $button-toolbar-border-color-over !default;
+$button-toolbar-border-color-pressed: adjust-color($base-color, $hue: 0.721deg, $saturation: -17.014%, $lightness: -21.765%) !default;
+
+$button-toolbar-background-color-over: lighten($header-color, 30) !default;
+$button-toolbar-background-color-focus: $button-toolbar-background-color-over !default;
+$button-toolbar-background-color-pressed: adjust-color($base-color, $hue: -1.138deg, $saturation: -11.47%, $lightness: -2.353%) !default;
+$button-toolbar-background-color-disabled: transparent !default;
+
+$button-toolbar-background-gradient-over: 'matte-over' !default;
+$button-toolbar-background-gradient-pressed: 'matte-pressed' !default;

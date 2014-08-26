@@ -1,0 +1,25 @@
+.app-footer {
+  @include background-image(linear-gradient(top, lighten($footer-color, 5), darken($footer-color, 5)));
+  font-size: 13px;
+  color: #555555;
+}
+
+.app-footer .x-btn-default-toolbar-small .x-btn-inner {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.app-footer .x-toolbar-separator-horizontal {
+  margin: 2px;
+}
+
+.x-bottom-nav-btn .x-btn-inner {
+  color: #555555;
+  font-size: 12px;
+}
+
+.x-bottom-nav-btn-over .x-btn-inner {
+  color: #666666;
+  font-size: 12px;
+  text-decoration: underline;
+}

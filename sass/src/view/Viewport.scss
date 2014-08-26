@@ -1,0 +1,134 @@
+@font-face {
+  font-family: Walkway_Bold;
+  src: url('../resources/fonts/Walkway_Bold.ttf');  // use .eot for IE or use google fonts
+}
+
+@font-face {
+  font-family: Walkway_UltraBold;
+  src: url('../resources/fonts/Walkway_UltraBold.ttf');  // use .eot for IE or use google fonts
+}
+
+.app-header {
+  @include background-image(linear-gradient(top, lighten($header-color, 1), darken($header-color, 3)));
+  padding: 0 10px 0px 20px;
+
+}
+
+.page-title {
+  color: #990000;
+  font-size: 16px;
+}
+
+.page-instructions {
+  color: #797979;
+  padding-bottom: 10px;
+}
+
+.grid-nav .x-column-header {
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 24px;
+  background-gradient: 'matte';
+}
+
+.grid-nav .x-column-header-inner {
+  font-weight: bold;
+  color: #666666;
+}
+
+.grid-nav .x-grid-cell {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.grid-nav-toolbar .x-column-header {
+  padding-left: 5px;
+  padding-right: 5px;
+  line-height: 18px;
+  background-gradient: 'matte';
+}
+
+.grid-nav-toolbar .x-column-header-inner {
+  font-weight: bold;
+  color: #7f7f7f;
+}
+
+.grid-nav-toolbar .x-grid-cell {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.tab-panel-content {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-top: transparent;
+  background-color: #ffffff;
+}
+
+audio {
+  width: 100%;
+  display: block;
+  margin:5px;
+}
+
+.media {
+  background-color: #000;
+  min-height: 60px;
+}
+
+.caption-preview {
+  background-color: #eee;
+  min-height: 60px;
+  padding: 10px;
+}
+
+.dashboard .x-btn-inner {
+  color: #333
+}
+
+pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.breadcrumb {
+  font-size: 12px;
+  color: #000;
+}
+
+.breadcrumb a {
+  color: #00992B;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.x-timecode {
+  text-align: center;
+  background: #f9f9f9;
+  color: #00992B;
+}
+
+.caption-grid {
+  background-color: '#f5f5f5'
+}
+
+.caption-item .x-btn-inner {
+  color: #333
+}
+
+.caption-container {
+  border: 1px solid #ddd;
+  padding: 3px 8px 5px 8px;
+  background-color: #fff;
+  line-height: 18px;
+}
