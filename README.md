@@ -10,8 +10,5 @@ Caption Builder is one of the applications in the [Bloom ToolKit](http://terrire
 - add and remove caption or subtitle time codes  
 - display synced time codes as media plays
 
-### Role
-I was the lead developer.  All code is mine.
-
 ### Technologies 
 JavaSript, Sencha ExtJs 4, Popcorn.j HTML5 media framework , SASS/Compass
